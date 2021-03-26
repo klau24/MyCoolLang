@@ -1,7 +1,7 @@
 # MyCoolLang
 A basic language with parser and interpreter built in Kotlin
 
-#Concrete syntax of the language
+### Concrete syntax of the language
 Expr =
 - Num
 - id
@@ -13,7 +13,7 @@ Expr =
         
 ... where an id is not local, in, if, or lam.
 
-#Values
+### Values
 - Reals
 - Booleans
 - Strings
