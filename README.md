@@ -3,6 +3,7 @@ A basic language with parser and interpreter built in Kotlin
 
 Concrete syntax of the language:
 
+'''
 Expr	 	=	 	Num
  	 	    |	 	id
  	 	    |	 	String
@@ -12,3 +13,4 @@ Expr	 	=	 	Num
  	 	    |	 	{Expr Expr ...}
         
 ... where an id is not local, in, if, or lam.
+'''
